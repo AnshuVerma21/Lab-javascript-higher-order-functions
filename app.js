@@ -1,4 +1,4 @@
-// new function Array Slice;
+// Function #1: Array Slice;
 const foods = ["pizza", "burger", "fingerChips", "donuts", "springRoll"];
 const modifiedFood = foods.slice(
   foods.indexOf("pizza") + 1,
@@ -6,14 +6,12 @@ const modifiedFood = foods.slice(
 );
 console.log(modifiedFood);
 
-
-//new function: Array Spliceconst
+//function  #2: Array Spliceconst
 var foods1 = ["pizza", "burger", "fingerChips", "donuts", "springRoll"];
 var modifiedFood1 = foods1.splice(2, 0, "noodles", "icecream");
 console.log(foods1);
 
-
-//new function: Filter
+//Function #3: Filter
 const numberArray = [12, 324, 213, 4, 2, 3, 45, 4234];
 
 function isEvan(numberArray) {
@@ -39,8 +37,7 @@ function isPrime(numberArray) {
 var primeNumbers = isPrime(numberArray);
 console.log(primeNumbers);
 
-
-//new function: Reject
+//Function #4: Reject
 
 var reject = {};
 //Function #5: Lambda function
@@ -49,8 +46,7 @@ var evenNumbers1 = numberArray.filter((number) => {
 });
 console.log(evenNumbers1);
 
-
-//new function Map
+//Function #6: Map
 
 const myArray = [11, 34, 20, 5, 53, 16];
 
@@ -63,7 +59,7 @@ function findSquareOfNumbers(myArray) {
 var SquareOfNumbers = findSquareOfNumbers(myArray);
 console.log(SquareOfNumbers);
 
-//new Function: Reduce
+//Function #7: Reduce
 
 const myArray1 = [2, 3, 5, 10];
 
